@@ -13,12 +13,12 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="600" prefWidth="1200" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paket1.FXMLDocumentController">
+<AnchorPane  id="AnchorPane" prefHeight="600" prefWidth="1200" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="paket1.FXMLDocumentController">
     <children>
-        <Pane prefHeight="575.0" prefWidth="429.0" style="-fx-background-color: green ;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Pane prefHeight="575.0" prefWidth="429.0" style="-fx-background-color: white ;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
             <children>
                
-                <Label alignment="CENTER" layoutX="86.0" layoutY="63.0" prefHeight="29.0" prefWidth="268.0" text="Prijava novog korisnika" textFill="WHITE">
+                <Label alignment="CENTER" layoutX="86.0" layoutY="63.0" prefHeight="29.0" prefWidth="268.0" text="Prijava novog korisnika" textFill="BLACK">
                     <font>
                         <Font name="Boldfinger" size="24.0" />
                     </font>
@@ -44,7 +44,7 @@
                         <Font name="Boldfinger" size="17.0" />
                     </font>
                 </RadioButton>
-                <Label layoutX="115.0" layoutY="391.0" text="Trajanje ugovora:" textFill="Blue">
+                <Label layoutX="115.0" layoutY="391.0" text="Trajanje ugovora:" textFill="BLACK">
                     <font>
                         <Font size="23.0" />
                     </font>
@@ -63,9 +63,9 @@
                 <TableColumn fx:id="useridenbroj" prefWidth="150.0" text="Identifikacioni Broj" />
             </columns>
         </TableView>
-        <Label layoutX="432.0" layoutY="26.0" prefHeight="27.0" prefWidth="600.0" text="Izaberite korisnika kojeg zelite da izbrisete,tako sto ce te stisnuti na njega a zatim kliknuti taster obrisi" textFill="RED">
+        <Label layoutX="432.0" layoutY="26.0" prefHeight="27.0" prefWidth="600.0" text="Izaberite korisnika kojeg zelite da izbrisete,a zatim kliknite taster obrisi" textFill="Black">
             <font>
-                <Font name="Boldfinger" size="12.0" />
+                <Font name="Boldfinger" size="13.0" />
             </font>
         </Label>
         <Button fx:id="btnSave2" layoutX="1025.0" layoutY="24.0" mnemonicParsing="false" onMouseClicked="#HandleEvents_for_brisanje" prefHeight="32.0" prefWidth="114.0" styleClass="button2" text="Obrisi korisnika" />
